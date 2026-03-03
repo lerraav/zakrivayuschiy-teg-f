@@ -23,7 +23,7 @@
   background-attachment: fixed;
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  font-variation-settings: "wdth" var(--wdth);
+  font-variation-settings: "wgth" var(--wgth);
 }
 
 .header {
@@ -66,7 +66,7 @@
   padding-inline: 10px;
   padding-block: 4px;
   font-size: var(--font-size);
-  font-feature-settings: "wdth" var(--wdth-accent);
+  font-variation-settings: "wgth" var(--wgth-accent);
 }
 
 .card__image {
