@@ -23,7 +23,7 @@
   background-attachment: fixed;
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  font-variation-settings: "wgth" var(--wgth);
+  font-variation-settings: "wgth" var(--wgth-main);
 }
 
 .header {
