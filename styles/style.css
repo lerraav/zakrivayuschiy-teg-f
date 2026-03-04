@@ -14,7 +14,7 @@
   flex-direction: column;
   align-items: center;
   color: var(--accent-color);
-  font-family: var(--font-family-main, 'Inter-Variable'), sans-serif;
+  font-family: var(--font-family-main, "Inter-Variable"), sans-serif;
   background-image:
     repeating-linear-gradient(to right, #d3d3d3 0px 2px, transparent 2px 4px),
     repeating-linear-gradient(to bottom, #d3d3d3 0px 2px, transparent 2px 4px),
@@ -35,8 +35,8 @@
   margin-bottom: 98px;
   border: var(--accent-color, #000) solid 2px;
   padding-inline: clamp(1rem, -1.2887rem + 9.7653vw, 7.5rem);
-  padding-block:  clamp(7.625rem, 7.4489rem + 0.7512vw, 8.125rem);
-  font-family: var(--font-family-accent, 'PressStart2P'), fantasy;
+  padding-block: clamp(7.625rem, 7.4489rem + 0.7512vw, 8.125rem);
+  font-family: var(--font-family-accent, "PressStart2P"), fantasy;
   background-color: var(--main-color, #fff);
   inline-size: var(--inl-size);
 }
@@ -79,9 +79,9 @@
 
 .card__image-container {
   position: relative;
-  overflow: hidden;
   border-top: var(--accent-color, #000) solid 2px;
   border-bottom: var(--accent-color, #000) solid 2px;
+  overflow: hidden;
 }
 
 .card__image-label {
@@ -91,7 +91,7 @@
   z-index: 2;
   opacity: 0.5;
   color: var(--accent-color, #000);
-  font-family: var(--font-family-accent, 'PressStart2P'), fantasy;
+  font-family: var(--font-family-accent, "PressStart2P"), fantasy;
   font-size: 14px;
   text-shadow:
     1px 1px var(--main-color, #fff),
@@ -158,10 +158,10 @@
 }
 
 .card__like-button {
-  inline-size: 130px;
   display: flex;
   justify-content: center;
   padding: 12.5px 37px;
+  inline-size: 130px;
 }
 
 .like-icon {
@@ -234,7 +234,6 @@
   animation: scale 0.3s ease-in 0.1s;
 }
 
-
 .card__icon-button {
   display: flex;
   align-items: center;
@@ -294,7 +293,7 @@
 
 .button__text {
   position: relative;
-  font-family: var(--font-family-accent, 'PressStart2P'), fantasy;
+  font-family: var(--font-family-accent, "PressStart2P"), fantasy;
   font-size: 14px;
   line-height: 90%;
 }
@@ -315,7 +314,7 @@
   inline-size: 21px;
 }
 
-.popup__block[open]::backdrop{
+.popup__block[open]::backdrop {
   background-color: rgb(0 0 0 / 0.75);
 }
 
@@ -340,7 +339,7 @@
 }
 
 .popup__text {
-  font-family: var(--font-family-accent, 'PressStart2P'), fantasy;
+  font-family: var(--font-family-accent, "PressStart2P"), fantasy;
   font-size: 14px;
   line-height: 150%;
   text-transform: uppercase;
