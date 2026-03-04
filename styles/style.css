@@ -237,6 +237,7 @@
 .card__icon-button {
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 38px;
   height: 38px;
   border: transparent 2px solid;
